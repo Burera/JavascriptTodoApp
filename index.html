@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TodoApp</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="asserts-web/style.css">
+</head>
+<body> 
+  <div class="container mt-5">
+      <div class="pt-5">
+            <div class=" text-center text-white ">
+              <h1>TO-DO-LIST</h1>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3 col-lg-3 col-sm-3">
+
+                </div>
+             <div class="col-md-6 col-lg-6 col-sm-6">
+                <div class="input-group ">
+                    <input type="text" class="form-control"  id="Task_add"  placeholder="Add Information" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                     <span >  <a class="btn btn-light text-info over" onclick="addEvent()"><i class="fa fa-plus-circle" aria-hidden="true"></i></a></span>
+                    </div>
+                  </div>
+                  
+                
+             </div>
+             <div class="col-md-3 col-lg-3 col-sm-3">
+               
+             </div>
+            </div>
+             
+            <div class="row pt-3">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-6">
+
+                    <ul class="list-group" id="update_task">
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            
+      </div>
+  </div>
+    
+
+    <script src="asserts-web/App.js"></script>
+</body>
+</html>
